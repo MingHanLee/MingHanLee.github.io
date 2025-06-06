@@ -174,8 +174,8 @@
         gestureRecognizer = await GestureRecognizer.createFromOptions(vision, {
             baseOptions: {
                 modelAssetPath:
-                    "https://github.com/MingHanLee/MingHanLee.github.io/blob/main/edgeai_lab4/rps_gesture_recognizer.task",
-                delegate: "GPU"
+                    "./rps_gesture_recognizer.task",
+                // delegate: "GPU"
             },
             runningMode: runningMode
         });
